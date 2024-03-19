@@ -1,11 +1,11 @@
 public class Berita {
     private int kodeBerita;
-    String judul;
-    public String penulis;
-    public String isi;
-    public int tanggal;
-    public String bulan;
-    public int tahun;
+    private String judul;
+    private String penulis;
+    private String isi;
+    private int tanggal;
+    private String bulan;
+    private int tahun;
 
     public Berita(int kodeBerita, String judul, String penulis, String isi, int tanggal, String bulan, int tahun) {
         this.kodeBerita = kodeBerita;
